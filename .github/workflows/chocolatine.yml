@@ -31,7 +31,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: construction 
-        id: build
+        id: check_program_compilation
         run: make
         timeout-minutes: 2
       - name: Clear the depot
