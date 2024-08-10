@@ -20,5 +20,5 @@ jobs:
         uses: actions/checkout@v3
       - name: check_coding_style
         run: check.sh $(pwd) $(pwd)
-      - name: verify coding
-        run: cat coding-style-reports.log
+
+        continue-on-error: false
