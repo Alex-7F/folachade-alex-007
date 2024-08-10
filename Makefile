@@ -27,3 +27,8 @@ fclean: clean
 	rm -f mysh
 
 re: fclean all
+
+tests_run:
+	rm -f *.o
+	rm -f *~
+	rm -f #*#  
